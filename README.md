@@ -46,6 +46,6 @@ vue + vue-router + vuex - axios（核心框架）
 
 
 
-![播放，搜藏](http://i1.buimg.com/598707/af56fb7096ed2f2d.gif)
+![播放，收藏](http://i1.buimg.com/598707/af56fb7096ed2f2d.gif)
 
 ![搜索功能](http://i1.buimg.com/598707/8e03ae49c01803a0.gif)
