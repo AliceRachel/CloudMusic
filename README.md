@@ -38,7 +38,7 @@ vue + vue-router + vuex - axios（核心框架）
 
 歌单详情页面，收藏歌曲页面
 
-[demo地址](http://paddyzhou.com/html/cloudMusic.html)
+[demo地址](http://paddyzhou.applinzi.com/)
 
 ## 效果图
 
