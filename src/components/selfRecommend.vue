@@ -44,6 +44,8 @@
 </template>
 <script type="text/javascript" charset="utf-8">
   import {Swipe, SwipeItem} from 'mint-ui';
+  var {commendList} = require('../../static/commend-list')
+  console.log(commendList)
   var imgs = [
       {img: 'http://p4.music.126.net/I1zKnPl4g9snKbAA5zJi3Q==/18623527953173535.jpg'},
       {img: 'http://p4.music.126.net/j_cH-yjz5tTLIDFmz4sSiQ==/18833534674063637.jpg'},
@@ -64,12 +66,8 @@
     data(){
       return {
           imgs,
-        commendList:[]
+        commendList:commendList.commendList
       }
-    },
-    created(){
-        this.$http.get('http://oyhfe.com:666/commend-list')
-          .then(data => this.commendList=data.data.commendList.commendList)
     },
     computed:{
       commendLists(){
